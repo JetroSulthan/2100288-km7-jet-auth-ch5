@@ -3,12 +3,12 @@
 #### 1. Cars
 
 - **GET** `/cars` - Retrieve a list of cars. Requires `{{token}}`.
+- **GET** `/cars/all` - Retrieve a list of cars. Requires `{{token}}`.
 - **GET** `/cars/:id` - Retrieve a car by ID. Requires `{{token}}`.
-- **POST** `/cars/create` - Create a new car entry. Requires `{{token}}`.
-- **PATCH** `/cars/update/:id` - Update a car entry by ID. Requires `{{token}}`.
-- **DELETE** `/cars/delete/:id` - Delete a car entry by ID. Requires `{{token}}`.
-- **GET** `/cars/check-available` - Check car availability. Requires `{{token}}`.
-- **GET** `/cars/log` - Retrieve car logs. Requires `{{token}}`.
+- **POST** `/cars/` - Create a new car entry. Requires `{{token}}`.
+- **PUT** `/cars/:id` - Update a car entry by ID. Requires `{{token}}`.
+- **DELETE** `/cars/:id` - Delete a car entry by ID. Requires `{{token}}`.
+
 
 #### 2. Health Check
 
@@ -24,7 +24,7 @@
 
 - **GET** `/users` - Retrieve a list of users. Requires `{{token}}`.
 - **GET** `/users/:id` - Retrieve a user by ID. Requires `{{token}}`.
-- **POST** `/users/create` - Create a new user. Requires `{{token}}`.
-- **PATCH** `/users/update/:id` - Update a user by ID. Requires `{{token}}`.
-- **DELETE** `/users/delete/:id` - Delete a user by ID. Requires `{{token}}`.
+- **POST** `/users/` - Create a new user. Requires `{{token}}`.
+- **PUT** `/users/:id` - Update a user by ID. Requires `{{token}}`.
+- **DELETE** `/users/:id` - Delete a user by ID. Requires `{{token}}`.
 
